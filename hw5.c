@@ -14,7 +14,7 @@ void binaryNumber(int num)
 int main(void)
 {
     int num;
-    printf("2진수로 변환할 수를 입력하세요: ");
+    printf("2진수로 변환할 정수를 입력하세요: ");
     scanf("%d",&num);
     printf("2진수로 변환한 값은:");
     binaryNumber(num);
